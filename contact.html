@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - BloomPetals</title>
+    <link rel="stylesheet" href="BloomPetals3.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="image-BloomPetals/logo.png" alt="BloomPetals Logo" width="120">
+               <h1>BloomPetals</h1>
+            </div>
+            <ul class="nav-list">
+                <li><a href="BloomPetals.html">Accueil</a></li>
+                <li><a href="entreprise.html">Entreprise</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="realisations.html">Realisations</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contact-form">
+        <section class="contact-info">
+            <h1 class="page-title">Contactez-nous</h1>
+            <address>
+                <p>BloomPetals Inc.</p>
+                <p>123 Rue de la Fleur</p>
+                <p>75000 Paris, France</p>
+                <p>Téléphone : +33 1 234 567 890</p>
+                <p>Email : contact@bloompetals.com</p>
+            </address>
+        </section>
+        <section class="contact-form">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="civility">Civilité</label>
+                    <select id="civility" name="civility">
+                        <option value="M.">Monsieur</option>
+                        <option value="Mme.">Madame</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="name">Nom et Prénom</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Adresse postale</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="privacy" name="privacy" required>
+                    <label for="privacy">J'accepte les politiques de confidentialité de l'entreprise</label>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="submit-button">Envoyer</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Copyright © 2023 BloomPetals. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
+
